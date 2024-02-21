@@ -1,0 +1,11 @@
+ul {
+    list-style: none;
+    background-color: rgba(41, 93, 85, 0.536);
+    max-width: 500px;
+    padding: 20px 0;
+    border-radius: 20px;
+}
+
+body {
+    background-color: rgba(66, 173, 137, 0.407);
+}
