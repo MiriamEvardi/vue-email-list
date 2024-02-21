@@ -17,7 +17,16 @@
 
 <body>
 
+    <!-- Vue -->
+    <script src='https://unpkg.com/vue@3/dist/vue.global.js'></script>
+    <!-- axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
+
     <div id="app">
+
+        <ul>
+            <li v-for="email in emails"> {{email}}</li>
+        </ul>
 
 
     </div>
@@ -27,8 +36,7 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
-    <!-- Vue -->
-    <script src='https://unpkg.com/vue@3/dist/vue.global.js'></script>
+
     <!-- JS -->
     <script src="./js/script.js"></script>
 </body>
